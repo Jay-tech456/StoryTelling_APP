@@ -1,0 +1,16 @@
+
+
+# Ensure that you have the right Conda Environment Running on your local machine
+
+# conda create --name fast python = 3.11.     # Note: Your python version may vary 
+# conda activate fast 
+# pip install -r requirements.txt 
+# uvicorn main:app --reload 
+
+
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+pydantic[email]
+python-dotenv
