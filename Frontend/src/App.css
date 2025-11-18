@@ -1,0 +1,14 @@
+/* Global App styles */
+.App {
+  text-align: center;
+}
+
+/* Section base styles used across components */
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

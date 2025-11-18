@@ -1,0 +1,29 @@
+/* About Section */
+
+.about-section {
+  background: linear-gradient(to bottom, #16213e, #0f3460, #16213e);
+}
+
+.about-section h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #ff7f50;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.about-content {
+  max-width: 600px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.about-description:last-of-type {
+  margin-bottom: 0;
+}
