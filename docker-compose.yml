@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./Backend
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+    volumes:
+      - ./Backend:/app
+
+  frontend:
+    build: ./Frontend/myapp
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
