@@ -2,7 +2,7 @@
 
 An immersive, interactive storytelling experience around a virtual campfire with voice recognition and AI-powered attentive listeners.
 
-![Campfire Story Time](https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1000&q=80)
+<img src="Artifacts/image.png" alt="Campfire Story Time" width="600">
 
 ## 🌟 Features
 
